@@ -1,7 +1,7 @@
 .ProductList {
     display: grid;
     grid-template-columns: 400px 400px 400px;
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
 }
 
@@ -16,6 +16,7 @@
 }
 
 .img-products {
+    margin-top: 10px;
     width: 280px;
     height: 280px;
 }
