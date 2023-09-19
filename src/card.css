@@ -1,0 +1,62 @@
+.ProductList {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    border: 2px solid rgb(31, 136, 10);
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-products {
+    width: 280px;
+    height: 280px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.title-card {
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+.description-card {
+    font-size: 15px;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+.price-card {
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+.actions {
+    display: flex;
+    gap: 50px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 1em;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+    transition: all 1s;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: rgb(31, 136, 10);
+}

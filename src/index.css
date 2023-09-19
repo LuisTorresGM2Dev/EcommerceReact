@@ -1,12 +1,9 @@
-:root{
+:root {
   background-color: black;
 }
-h1{
+h1 {
   color: white;
 }
-p{
+p {
   color: white;
-}
-.ProductList{
-  display: flex;
 }

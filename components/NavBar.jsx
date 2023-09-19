@@ -1,5 +1,7 @@
-function Navbar(){
-    return(
+import "../src/navbar.css";
+
+function Navbar() {
+    return (
         <div>
             <div className="logo">
                 <img src="../images/Vector-g.svg" alt="" />
@@ -7,7 +9,6 @@ function Navbar(){
                 <img src="../images/Vector-2.svg" alt="" />
             </div>
         </div>
-
-    )
+    );
 }
-export { Navbar};
+export { Navbar };
