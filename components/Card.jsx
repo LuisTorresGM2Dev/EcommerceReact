@@ -1,5 +1,6 @@
 import { products } from "../src/App";
 import "../src/card.css";
+import { TableMode } from "./TableMode";
 
 function Card(props) {
   return (
@@ -20,7 +21,7 @@ function Card(props) {
 
 function ProductList() {
   const productCards = products.map((product) => (
-    <Card
+    <TableMode
       key={product.id}
       product={product}
       image={product.image}
