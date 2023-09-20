@@ -1,4 +1,5 @@
 .ProductList {
+    margin-top: 15px;
     display: grid;
     grid-template-columns: 400px 400px 400px;
     gap: 30px;
@@ -39,6 +40,7 @@
 }
 
 .actions {
+    margin-bottom: 10px;
     display: flex;
     gap: 50px;
 }
