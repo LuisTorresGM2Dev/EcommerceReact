@@ -1,5 +1,5 @@
-
-
+import { products } from "../src/App";
+import "../src/TableMode.css"
 function TableMode(props) {
     return (
         <div className="table-view">
@@ -19,4 +19,20 @@ function TableMode(props) {
     );
 }
 
+function TableView() {
+    const modoTabla = products.map((product) => (
+        <TableMode
+            key={product.id}
+            product={product}
+            image={product.image}
+            title={product.title}
+            description={product.description}
+            price={product.price}
+        />
+    ));
+
+    return <div className="TableView">{modoTabla}</div>;
+}
+
 export { TableMode }
+export { TableView }

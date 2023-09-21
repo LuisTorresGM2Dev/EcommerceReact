@@ -1,0 +1,18 @@
+.table-view {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    background-color: bisque;
+    align-items: center;
+}
+
+
+.img-table {
+    width: 100px;
+    height: 100%;
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+}

@@ -1,6 +1,7 @@
 import "./App.css";
 import { Navbar } from "../components/NavBar";
 import { ProductList } from "../components/Card";
+import { TableView } from "../components/TableMode";
 const products = [
   {
     id: 1,
@@ -234,6 +235,8 @@ function App() {
     <>
       <Navbar />
       <ProductList />
+      <TableView />
+
     </>
   );
 }
