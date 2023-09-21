@@ -3,16 +3,16 @@ import "../src/TableMode.css"
 function TableMode(props) {
     return (
         <div className="table-view">
-            <div className="title-table-div">
+            <div className="title-table-div border">
                 <h1 className="title-table">{props.title}</h1>
             </div>
-            <div className="description-table-div">
+            <div className="description-table-div border">
                 <h2 className="description-table">{props.description}</h2>
             </div>
-            <div className="price-table-div">
+            <div className="price-table-div border">
                 <h3 className="price-table">{props.price}</h3>
             </div>
-            <div className="img-table-div">
+            <div className="img-table-div border">
                 <img className="img-table" src={props.image} />
             </div>
         </div>
